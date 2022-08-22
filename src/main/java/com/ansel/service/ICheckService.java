@@ -57,5 +57,7 @@ public interface ICheckService {
 	public IncomeMonthlyTemp selectAll();
 	
 	public IncomeMonthlyTemp selectByMonth(String month);
+
+	public boolean update(EmployeeWage employeeWage);
 	
 }

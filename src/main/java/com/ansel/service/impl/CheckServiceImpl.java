@@ -164,6 +164,18 @@ public class CheckServiceImpl implements ICheckService {
 		}
 	}
 
+	public boolean update(EmployeeWage employeeWage) {
+		try {
+			//EmployeeWage wage = selectByEmployeeCode(employeeWage.getEmployeeCode());
+			//employeeWageDao.delete(wage);
+			employeeWageDao.save(employeeWage);
+			return true;
+		} catch (Exception e) {
+			System.err.println("员工工资更新失败");
+			return false;
+		}
+	}
+
 	@Override
 	public Page<EmployeeWage> selectAllWage(Pageable pageable) {
 		// TODO Auto-generated method stub

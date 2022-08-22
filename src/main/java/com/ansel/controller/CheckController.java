@@ -22,6 +22,9 @@ import com.ansel.util.Result;
 
 import io.swagger.annotations.Api;
 
+import java.text.SimpleDateFormat;
+import java.sql.Date;
+
 @RestController
 @CrossOrigin
 @Api(value = "营业外收入 Controller")
@@ -118,10 +121,25 @@ public class CheckController extends ReturnType {
 	 */
 	@RequestMapping(value = "/addWage", method = RequestMethod.POST, produces = "application/json")
 	public String add(EmployeeWage wage) {
-		boolean flag = false;
-		flag = checkService.save(wage);
-		if (!flag) {
-			return ERROR;
+		if(selectByEmployeeCode(wage.getEmployeeCode()) == null)
+		{
+			boolean flag = false;
+			flag = checkService.save(wage);
+			if (!flag) {
+				return ERROR;
+			}
+		}
+		else
+		{
+			EmployeeWage updatedWage = selectByEmployeeCode(wage.getEmployeeCode());
+			updatedWage.setBasicWage(wage.getBasicWage());
+			updatedWage.setStationWage(wage.getStationWage());
+			updatedWage.setAllowance(wage.getAllowance());
+			boolean flag = false;
+			flag = checkService.update(updatedWage);
+			if (!flag) {
+				return ERROR;
+			}
 		}
 		return SUCCESS;
 	}
