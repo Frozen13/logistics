@@ -1,5 +1,6 @@
 package com.ansel.controller;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,9 @@ import com.ansel.util.Result;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @RestController
 @CrossOrigin
@@ -115,7 +119,13 @@ public class GroupController extends ReturnType {
 		
 		return functions;
 	}
-	
+
+
+	@RequestMapping(value = "/selectFunc/null", method = RequestMethod.GET)
+		public void nullUser(HttpServletRequest request, HttpServletResponse response) throws IOException {
+			response.sendRedirect("/tologin");
+		}
+
 	@ApiOperation(value = "查询权限")
 	@RequestMapping(value = "/selectFunc/{loginId}", method = RequestMethod.GET)
 	public List<FunctionWithGroup> selectFunc(@PathVariable("loginId") String loginId) {

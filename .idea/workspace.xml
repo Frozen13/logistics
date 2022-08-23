@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a7b255e-cc28-4f68-8069-b91c8438237f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/81b0db2b-f244-48ce-a960-cfedeafcccbb/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansel/controller/CheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansel/controller/CheckController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansel/service/ICheckService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansel/service/ICheckService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansel/service/impl/CheckServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansel/service/impl/CheckServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ansel/controller/CheckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ansel/controller/CheckController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ansel/service/ICheckService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ansel/service/ICheckService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ansel/service/impl/CheckServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ansel/service/impl/CheckServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ansel/controller/GroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ansel/controller/GroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/nginx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/nginx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ansel/controller/GroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ansel/controller/GroupController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,6 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Subversion/bin/svn.exe",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -124,7 +123,8 @@
       <workItem from="1660957852635" duration="3500000" />
       <workItem from="1660980365885" duration="3695000" />
       <workItem from="1661130658972" duration="3393000" />
-      <workItem from="1661135624510" duration="838000" />
+      <workItem from="1661135624510" duration="2223000" />
+      <workItem from="1661217186302" duration="6499000" />
     </task>
     <servers />
   </component>
