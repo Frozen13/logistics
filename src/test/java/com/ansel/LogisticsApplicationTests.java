@@ -1,26 +1,17 @@
 package com.ansel;
 
-import java.util.Calendar;
-import java.util.List;
-import java.util.TimeZone;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.ansel.bean.Employee;
-import com.ansel.bean.GoodsBill;
-import com.ansel.bean.Region;
-import com.ansel.bean.User;
-import com.ansel.dao.IEmployeeDao;
-import com.ansel.dao.IGoodsBillDao;
-import com.ansel.dao.IRegionDao;
-import com.ansel.dao.IRouteInfoDao;
-import com.ansel.dao.IUserDao;
-import com.ansel.service.IRouteService;
-import com.ansel.util.Enctype;
+import com.logistics.dao.IEmployeeDao;
+import com.logistics.dao.IGoodsBillDao;
+import com.logistics.dao.IRegionDao;
+import com.logistics.dao.IRouteInfoDao;
+import com.logistics.dao.IUserDao;
+import com.logistics.service.IRouteService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
